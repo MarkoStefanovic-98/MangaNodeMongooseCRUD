@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "62ad0c0e5859cd6170d925b3"
+  },
+  "nomComplet": "Naruto",
+  "pouvoir": "Maitrise le chacra",
+  "but": "Devenir Hokage",
+  "caractere": "Avenant",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ad0ca25859cd6170d925b4"
+  },
+  "nomComplet": "Gon",
+  "pouvoir": "Maitrise du NEN dans toutes ses formes",
+  "but": "Retrouver son père",
+  "caractere": "Gentille, Positif, Aide les autres",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ad0cf55859cd6170d925b5"
+  },
+  "nomComplet": "Madara",
+  "pouvoir": "Maitrise du chakra, invincible",
+  "but": "Mettre l'humanité dans une forme d'hypnose",
+  "caractere": "Vilain, Méchant, Fou",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ad0d3b5859cd6170d925b6"
+  },
+  "nomComplet": "Luffy",
+  "pouvoir": "Gum Gum, à l'aide d'un fruit du démon",
+  "but": "Devenir le roi des pirates",
+  "caractere": "Drôle, Bête, Gentille",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ad0d725859cd6170d925b7"
+  },
+  "nomComplet": "Tanjiro",
+  "pouvoir": "Souffle de l'eau et du feu",
+  "but": "Ramener sa soeur à l'état humain de celui du démon",
+  "caractere": "Gentille, Avenant, Têtu, Malin",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ad0de35859cd6170d925b8"
+  },
+  "nomComplet": "Zenitsu",
+  "pouvoir": "Souffle de la foudre",
+  "but": "Marier la soeur de Tanjiro",
+  "caractere": "Drôle, Maladroit, Grand coeur",
+  "__v": 0
+}]
