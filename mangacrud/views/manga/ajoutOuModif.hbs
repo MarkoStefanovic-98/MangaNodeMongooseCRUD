@@ -1,0 +1,39 @@
+<h3>{{viewTitle}}</h3>
+
+
+<form action="/manga" method="POST" autoComplete="off">
+    <input type="hidden" name="_id" value="{{manga._id}}">
+        <div class="form-group">
+            <label>Nom Complet</label>
+            <input type="text" class="form-control" name="nomComplet" placeholder="Nom Complet" value="{{manga.nomComplet}}">
+            <div class="text-danger">
+                {{manga.nomCompletError}}
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Pouvoir</label>
+            <input type="text" class="form-control" name="pouvoir" placeholder="Pouvoir" value="{{manga.pouvoir}}">
+            <div class="text-danger">
+                {{manga.pouvoirError}}
+            </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>But dans la vie</label>
+                <input type="text" class="form-control" name="but" placeholder="But" value="{{manga.but}}">
+                <div class="text-danger">
+                    {{manga.butError}}
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label>Caractere</label>
+                <input type="text" class="form-control" name="caractere" placeholder="Caracteres" value="{{manga.caractere}}">
+                <div class="text-danger">
+                    {{manga.caractereError}}
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-info">Valider</button>
+            <a class="btn btn-secondary" href="/manga/list">Voir tout</a>
+        </div>
+</form>

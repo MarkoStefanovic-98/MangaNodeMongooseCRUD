@@ -1,0 +1,24 @@
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Nom Complet</th>
+        <th>Pouvoir</th>
+        <th>But</th>
+        <th>Caractere</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each list}}
+        <tr>
+            <td>{{this.nomComplet}}</td>
+            <td>{{this.pouvoir}}</td>
+            <td>{{this.but}}</td>
+            <td>{{this.caractere}}</td>
+            <td>
+                <a class="btn btn-success" href="/manga/{{this._id}}">Modifier</a> <a class="btn btn-danger" href="/manga/supp/{{this._id}}" onclick="return confirm('Vous êtes sur de supprimer le personnage {{this.nomComplet}} ?');">Supprimer</a>
+            </td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
